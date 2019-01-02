@@ -9,7 +9,8 @@
       </view>
            
       <view class="weui-flex__item"  >
-          <button  class="placeholder_button" type="primary" data-statu="open" bindtap="open">添加</button>
+           <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+                 <button  wx:else class="placeholder_button" type="primary" data-statu="open" bindtap="open">添加</button>
       </view>
       </view>
   </view>

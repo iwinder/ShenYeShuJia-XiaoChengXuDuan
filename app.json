@@ -23,7 +23,6 @@
       "iconPath": "image/ico_index.png",
       "selectedIconPath": "image/ico_index_selected.png"
     },
-
     {
       "pagePath": "pages/userInfo/userInfo",
       "text": "我的",
